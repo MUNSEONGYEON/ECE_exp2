@@ -1,7 +1,7 @@
-Running: xsim.dir/logic_gate_behav/xsimk.exe -simmode gui -wdb logic_gate_behav.wdb -simrunnum 0 -socket 12451
+Running: xsim.dir/logic_gate_behav/xsimk.exe -simmode gui -wdb logic_gate_behav.wdb -simrunnum 0 -socket 1675
 Design successfully loaded
-Design Loading Memory Usage: 8588 KB (Peak: 8588 KB)
-Design Loading CPU Usage: 92 ms
+Design Loading Memory Usage: 8040 KB (Peak: 8040 KB)
+Design Loading CPU Usage: 31 ms
 Simulation completed
-Simulation Memory Usage: 9108 KB (Peak: 9108 KB)
-Simulation CPU Usage: 92 ms
+Simulation Memory Usage: 8536 KB (Peak: 8536 KB)
+Simulation CPU Usage: 77 ms

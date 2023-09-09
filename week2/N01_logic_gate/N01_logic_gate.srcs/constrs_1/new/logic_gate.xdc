@@ -5,3 +5,11 @@ set_property PACKAGE_PIN M4 [get_ports x2]
 set_property PACKAGE_PIN M2 [get_ports x3]
 set_property PACKAGE_PIN N7 [get_ports x4]
 set_property PACKAGE_PIN M7 [get_ports x5]
+
+set_property PACKAGE_PIN Y1 [get_ports A]
+set_property PACKAGE_PIN W3 [get_ports B]
+set_property PACKAGE_PIN L4 [get_ports C]
+set_property PACKAGE_PIN M4 [get_ports S]
+
+set_property PACKAGE_PIN U2 [get_ports Cin]
+set_property PACKAGE_PIN L4 [get_ports Cout]

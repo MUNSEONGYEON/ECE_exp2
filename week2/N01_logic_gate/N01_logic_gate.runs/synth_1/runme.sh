@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log logic_gate.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source logic_gate.tcl
+EAStep vivado -log Full_Adder.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Full_Adder.tcl

@@ -3,5 +3,10 @@
 Oct 14 2022
 05:20:55
 C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
-C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sim_1/new/logic_gate_tb.v,1694164563,verilog,,,,logic_gate_tb,,,,,,,,
-C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/logic_gate.v,1694162856,verilog,,C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sim_1/new/logic_gate_tb.v,,logic_gate,,,,,,,,
+C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sim_1/new/Full_Adder_tb.v,1694183042,verilog,,,,Full_Adder_tb,,,,,,,,
+C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sim_1/new/Full_adder_tb.v,1694182709,verilog,,,,Full_adder_tb,,,,,,,,
+C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sim_1/new/logic_gate_tb.v,1694177088,verilog,,C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sim_1/new/Full_Adder_tb.v,,logic_gate_tb,,,,,,,,
+C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/Full_Adder.v,1694181740,verilog,,C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sim_1/new/logic_gate_tb.v,,Full_Adder,,,,,,,,
+C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/Half_Adder.v,1694177543,verilog,,C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/Half_adder_case.v,,Half_Adder,,,,,,,,
+C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/Half_adder_case.v,1694180768,verilog,,C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/logic_gate.v,,Half_Adder_case,,,,,,,,
+C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/logic_gate.v,1694162856,verilog,,C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/Full_Adder.v,,logic_gate,,,,,,,,
