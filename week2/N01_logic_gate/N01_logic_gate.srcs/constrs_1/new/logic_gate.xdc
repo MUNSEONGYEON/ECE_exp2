@@ -13,3 +13,17 @@ set_property PACKAGE_PIN M4 [get_ports S]
 
 set_property PACKAGE_PIN U2 [get_ports Cin]
 set_property PACKAGE_PIN L4 [get_ports Cout]
+
+set_property IOSTANDARD LVCMOS33 [get_ports a]
+set_property IOSTANDARD LVCMOS33 [get_ports b]
+set_property IOSTANDARD LVCMOS33 [get_ports x1]
+set_property IOSTANDARD LVCMOS33 [get_ports x2]
+set_property IOSTANDARD LVCMOS33 [get_ports x3]
+set_property IOSTANDARD LVCMOS33 [get_ports x4]
+set_property IOSTANDARD LVCMOS33 [get_ports x5]
+
+set_property IOSTANDARD LVCMOS33 [get_ports A]
+set_property IOSTANDARD LVCMOS33 [get_ports B]
+set_property IOSTANDARD LVCMOS33 [get_ports Cin]
+set_property IOSTANDARD LVCMOS33 [get_ports Cout]
+set_property IOSTANDARD LVCMOS33 [get_ports S]

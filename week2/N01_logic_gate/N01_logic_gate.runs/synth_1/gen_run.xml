@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s75fgga484-1" LaunchTime="1694182441" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/logic_gate.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7s75fgga484-1" LaunchTime="1694393226" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/logic_gate.dcp">
   <File Type="PA-TCL" Name="Full_Adder.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Full_Adder_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Full_Adder_reports.tcl"/>
   <File Type="RDS-RDS" Name="Full_Adder.vds"/>
   <File Type="RDS-UTIL" Name="Full_Adder_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Full_Adder_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Full_Adder.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Full_Adder_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Full_Adder_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Half_Adder.v">

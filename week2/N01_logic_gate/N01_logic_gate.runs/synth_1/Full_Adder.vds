@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Fri Sep  8 23:02:57 2023
-# Process ID: 28704
+# Start of session at: Mon Sep 11 09:43:48 2023
+# Process ID: 485760
 # Current directory: C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.runs/synth_1
 # Command line: vivado.exe -log Full_Adder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Full_Adder.tcl
 # Log file: C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.runs/synth_1/Full_Adder.vds
@@ -11,7 +11,7 @@
 # Running On: DESKTOP-V1MUKKM, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8311 MB
 #-----------------------------------------------------------
 source Full_Adder.tcl -notrace
-create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 372.039 ; gain = 48.988
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 373.344 ; gain = 76.480
 Command: read_checkpoint -auto_incremental -incremental C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/utils_1/imports/synth_1/logic_gate.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/utils_1/imports/synth_1/logic_gate.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -22,28 +22,28 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s75'
 INFO: [Device 21-403] Loading part xc7s75fgga484-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 22588
+INFO: [Synth 8-7075] Helper process launched with PID 487812
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1187.289 ; gain = 406.914
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1186.684 ; gain = 407.020
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'Full_Adder' [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/Full_Adder.v:23]
 INFO: [Synth 8-6157] synthesizing module 'Half_Adder' [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/Half_Adder.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'Half_Adder' (0#1) [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/Half_Adder.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'Full_Adder' (0#1) [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/sources_1/new/Full_Adder.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1276.238 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1275.898 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -73,45 +73,66 @@ Resolution: If [get_<value>] was used to populate the object, check to make sure
 WARNING: [Vivado 12-584] No ports matched 'C'. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:11]
 CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:11]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a'. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b'. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'x1'. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'x2'. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'x3'. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'x4'. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'x5'. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/constrs_1/new/logic_gate.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Full_Adder_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Full_Adder_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1276.238 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1275.898 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1276.238 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1275.898 ; gain = 0.000
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7s75fgga484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Preparing Guide Design
 ---------------------------------------------------------------------------------
 CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.srcs/utils_1/imports/synth_1/logic_gate.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
 ---------------------------------------------------------------------------------
-Finished Doing Graph Differ : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished Doing Graph Differ : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Preparing Guide Design : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished Preparing Guide Design : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 
 
@@ -146,25 +167,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1276.238 ; gain = 495.863
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1275.898 ; gain = 496.234
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1284.285 ; gain = 503.910
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1288.867 ; gain = 509.203
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -182,37 +203,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1290.063 ; gain = 509.688
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1294.539 ; gain = 514.875
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1290.063 ; gain = 509.688
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1294.539 ; gain = 514.875
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1290.063 ; gain = 509.688
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1294.539 ; gain = 514.875
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1290.063 ; gain = 509.688
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1294.539 ; gain = 514.875
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1290.063 ; gain = 509.688
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1294.539 ; gain = 514.875
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1290.063 ; gain = 509.688
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1294.539 ; gain = 514.875
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -233,25 +254,25 @@ Report Cell Usage:
 |3     |OBUF |     2|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1290.063 ; gain = 509.688
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1294.539 ; gain = 514.875
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 1 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 1290.063 ; gain = 509.688
-Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1290.063 ; gain = 509.688
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1294.539 ; gain = 514.875
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1294.539 ; gain = 514.875
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1298.313 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1306.598 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1308.340 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1313.250 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 Synth Design complete, checksum: 663a962c
 INFO: [Common 17-83] Releasing license: Synthesis
-22 Infos, 9 Warnings, 9 Critical Warnings and 0 Errors encountered.
+22 Infos, 16 Warnings, 16 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1308.340 ; gain = 911.469
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 1313.250 ; gain = 915.070
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.runs/synth_1/Full_Adder.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Full_Adder_utilization_synth.rpt -pb Full_Adder_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Sep  8 23:03:39 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 11 09:44:52 2023...
