@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sim_1/new/DFF_tb.v,1695190101,verilog,,,,DFF_tb,,,,,,,,
+C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sim_1/new/TFF_OST_tb.v,1695195428,verilog,,,,TFF_OST_tb,,,,,,,,
+C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sim_1/new/TFF_tb.v,1695194506,verilog,,,,TFF_tb,,,,,,,,
+C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sources_1/new/DFF.v,1695188041,verilog,,C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sim_1/new/DFF_tb.v,,DFF,,,,,,,,
+C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sources_1/new/JKFF.v,1695193090,verilog,,C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sim_1/new/JKFF_tb.v,,JKFF,,,,,,,,
+C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sources_1/new/TFF.v,1695193846,verilog,,C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sim_1/new/TFF_tb.v,,TFF,,,,,,,,
+C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sources_1/new/TFF_OST.v,1695195240,verilog,,C:/Users/user/git/ECE_exp2/week4/N03_sequential_logic/N03_sequential_logic.srcs/sim_1/new/TFF_OST_tb.v,,TFF_OST,,,,,,,,

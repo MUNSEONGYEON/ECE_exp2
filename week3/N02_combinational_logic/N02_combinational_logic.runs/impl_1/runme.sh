@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/user/git/ECE_exp2/week2/N02_combinational_logic/N02_combinational_logic.runs/impl_1'
+HD_PWD='C:/Users/user/git/ECE_exp2/week3/N02_combinational_logic/N02_combinational_logic.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log Mux_8to1.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Mux_8to1.tcl -notrace
+EAStep vivado -log Mux_4to1_2bit.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Mux_4to1_2bit.tcl -notrace
 
 

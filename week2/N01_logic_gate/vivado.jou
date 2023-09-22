@@ -2,89 +2,14 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Mon Sep 11 09:26:28 2023
-# Process ID: 432316
+# Start of session at: Sat Sep 16 14:02:25 2023
+# Process ID: 15488
 # Current directory: C:/Users/user/git/ECE_exp2/week2/N01_logic_gate
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent463416 C:\Users\user\git\ECE_exp2\week2\N01_logic_gate\N01_logic_gate.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1864 C:\Users\user\git\ECE_exp2\week2\N01_logic_gate\N01_logic_gate.xpr
 # Log file: C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/vivado.log
 # Journal file: C:/Users/user/git/ECE_exp2/week2/N01_logic_gate\vivado.jou
 # Running On: DESKTOP-V1MUKKM, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8311 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.xpr
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top logic_gate [current_fileset]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode DisplayOnly [current_project]
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top logic_gate_tb [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode DisplayOnly [current_project]
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
 synth_design -rtl -rtl_skip_mlo -name rtl_1
-set_property IOSTANDARD LVCMOS33 [get_ports [list a]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list b]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list x1]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list x2]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list x3]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list x4]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list x5]]
-save_constraints
-reset_run impl_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-reset_run synth_1
-launch_runs synth_1 -jobs 4
-wait_on_run synth_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-close_design
-open_run impl_1
-open_hw_manager
-connect_hw_server -allow_non_jtag
-open_hw_target
-current_hw_device [get_hw_devices xc7s75_0]
-refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s75_0] 0]
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7s75_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7s75_0]
-set_property PROGRAM.FILE {C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.runs/impl_1/logic_gate.bit} [get_hw_devices xc7s75_0]
-program_hw_devices [get_hw_devices xc7s75_0]
-refresh_hw_device [lindex [get_hw_devices xc7s75_0] 0]
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top Full_Adder [current_fileset]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode DisplayOnly [current_project]
-# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
-set_property source_mgmt_mode None [current_project]
-set_property top Full_Adder_tb [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-# Re-enabling previously disabled source management mode.
-set_property source_mgmt_mode DisplayOnly [current_project]
-reset_run synth_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-synth_design -rtl -rtl_skip_mlo -name rtl_1
-set_property IOSTANDARD LVCMOS33 [get_ports [list A]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list B]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list Cin]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list Cout]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list S]]
-save_constraints
-reset_run impl_1
-launch_runs impl_1 -jobs 4
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-wait_on_run impl_1
-set_property PROBES.FILE {} [get_hw_devices xc7s75_0]
-set_property FULL_PROBES.FILE {} [get_hw_devices xc7s75_0]
-set_property PROGRAM.FILE {C:/Users/user/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.runs/impl_1/Full_Adder.bit} [get_hw_devices xc7s75_0]
-program_hw_devices [get_hw_devices xc7s75_0]
-refresh_hw_device [lindex [get_hw_devices xc7s75_0] 0]

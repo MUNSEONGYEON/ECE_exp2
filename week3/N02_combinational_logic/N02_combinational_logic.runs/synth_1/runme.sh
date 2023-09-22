@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/user/git/ECE_exp2/week2/N02_combinational_logic/N02_combinational_logic.runs/synth_1'
+HD_PWD='C:/Users/user/git/ECE_exp2/week3/N02_combinational_logic/N02_combinational_logic.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Mux_8to1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mux_8to1.tcl
+EAStep vivado -log Mux_4to1_2bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Mux_4to1_2bit.tcl

@@ -73,3 +73,8 @@ set_property PACKAGE_PIN V4 [get_ports {I3[0]}]
 set_property PACKAGE_PIN M4 [get_ports {O[1]}]
 set_property PACKAGE_PIN K4 [get_ports S0]
 set_property PACKAGE_PIN N8 [get_ports S1]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {Out[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {Out[0]}]
+set_property PACKAGE_PIN L4 [get_ports {Out[0]}]
+set_property PACKAGE_PIN M4 [get_ports {Out[1]}]

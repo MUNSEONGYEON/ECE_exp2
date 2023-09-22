@@ -20,11 +20,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Mux_4to1_2bit(I0, I1, I2, I3, S0, S1, O);
+module Mux_4to1_2bit(I0, I1, I2, I3, S0, S1, Out);
 input [1:0] I0, I1, I2, I3;
 input S0, S1;
-output [1:0] O;
+output [1:0] Out;
 
-assign O = S1 ? (S0 ? I3 : I2) : (S0 ? I1 : I0);
+assign Out = S1 ? (S0 ? I3 : I2) : (S0 ? I1 : I0);
 
 endmodule
