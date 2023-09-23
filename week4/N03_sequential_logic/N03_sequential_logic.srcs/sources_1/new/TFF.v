@@ -18,8 +18,6 @@
 // Additional Comments:
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
-
 module TFF(clk, rst, T, Q);
 input clk, rst, T;
 output reg Q;
@@ -33,3 +31,4 @@ begin
 end
 
 endmodule
+
