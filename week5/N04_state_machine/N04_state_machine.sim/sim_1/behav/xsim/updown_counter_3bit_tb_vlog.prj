@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../N04_state_machine.srcs/sources_1/new/SM1.v" \
-"../../../../N04_state_machine.srcs/sim_1/new/SM1_tb2.v" \
+"../../../../N04_state_machine.srcs/sources_1/new/updown_counter_3bit.v" \
+"../../../../N04_state_machine.srcs/sim_1/new/updown_counter_3bit_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"
