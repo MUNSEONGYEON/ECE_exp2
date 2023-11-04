@@ -1,0 +1,14 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sim_1/new/bin2bcd_tb.v,1698823740,verilog,,,,bin2bcd_tb,,,,,,,,
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sim_1/new/piezo_simulation.v,1698910869,verilog,,,,piezo_simulation,,,,,,,,
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sim_1/new/seg_array_5_1_tb.v,1698855372,verilog,,,,seg_array_5_1_tb,,,,,,,,
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sim_1/new/seg_array_tb.v,1698855377,verilog,,,,seg_array_tb,,,,,,,,
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sources_1/new/bin2bcd.v,1698823512,verilog,,C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sources_1/new/oneshot_universal.v,,bin2bcd,,,,,,,,
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sources_1/new/oneshot_universal.v,1698825625,verilog,,C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sources_1/new/seg_array_5_1.v,,oneshot_universal,,,,,,,,
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sources_1/new/piezo_basic.v,1698910092,verilog,,C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sim_1/new/piezo_simulation.v,,piezo_basic,,,,,,,,
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sources_1/new/seg_array.v,1698851790,verilog,,C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sim_1/new/seg_array_tb.v,,seg_array,,,,,,,,
+C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sources_1/new/seg_array_5_1.v,1698855035,verilog,,C:/Users/user/git/ECE_exp2/week6/N05_7segment_piezo/N05_7segment_piezo.srcs/sim_1/new/seg_array_5_1_tb.v,,seg_array_5_1,,,,,,,,
