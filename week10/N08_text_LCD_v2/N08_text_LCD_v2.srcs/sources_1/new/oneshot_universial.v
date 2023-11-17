@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2023/11/11 22:26:09
+// Create Date: 2023/11/14 12:10:53
 // Design Name: 
 // Module Name: oneshot_universial
 // Project Name: 
@@ -34,7 +34,7 @@ always @(negedge rst or posedge clk) begin
     end
     else begin
         btn_reg <= btn;
-        btn_trig <= btn & ~btn_reg;
+        btn_trig <= btn & ~btn_reg;    
     end
 end
 
