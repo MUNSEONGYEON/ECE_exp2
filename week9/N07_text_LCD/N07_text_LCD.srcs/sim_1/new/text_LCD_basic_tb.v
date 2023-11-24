@@ -26,7 +26,7 @@ wire LCD_E, LCD_RS, LCD_RW;
 wire [7:0] LCD_DATA;
 wire [7:0] LED_out;
 
-text_LCD_basic U1 (rst, clk, LCD_E, LCD_RS, LCD_RW, LCD_DATA, LED_out);
+text_LCD_basic1 U1 (rst, clk, LCD_E, LCD_RS, LCD_RW, LCD_DATA, LED_out);
 
 initial begin
     clk <= 0;

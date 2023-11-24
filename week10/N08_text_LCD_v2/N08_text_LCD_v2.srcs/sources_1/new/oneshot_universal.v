@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 2023/11/14 12:10:53
+// Create Date: 2023/11/19 11:28:31
 // Design Name: 
-// Module Name: oneshot_universial
+// Module Name: oneshot_universal
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module oneshot_universial(clk, rst, btn, btn_trig);
+module oneshot_universal(clk, rst, btn, btn_trig);
 parameter WIDTH = 1;
 input clk, rst;
 input [WIDTH-1:0] btn;
