@@ -1,0 +1,334 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Dec 10 00:46:46 2023
+# Process ID: 10480
+# Current directory: C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log traffic_light.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source traffic_light.tcl
+# Log file: C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.runs/synth_1/traffic_light.vds
+# Journal file: C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.runs/synth_1\vivado.jou
+# Running On: DESKTOP-V1MUKKM, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 8311 MB
+#-----------------------------------------------------------
+source traffic_light.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 372.074 ; gain = 50.094
+Command: read_checkpoint -auto_incremental -incremental C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/utils_1/imports/synth_1/traffic_light.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/utils_1/imports/synth_1/traffic_light.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top traffic_light -part xc7s75fgga484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s75'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s75'
+INFO: [Device 21-403] Loading part xc7s75fgga484-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20616
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1188.672 ; gain = 409.934
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'traffic_light' [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CLOCK' [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:23]
+INFO: [Synth 8-6157] synthesizing module 'oneshot_universal' [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/oneshot_universal.v:23]
+	Parameter WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'oneshot_universal' (0#1) [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/oneshot_universal.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'CLOCK' (0#1) [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:23]
+INFO: [Synth 8-6157] synthesizing module 'oneshot_universal__parameterized0' [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/oneshot_universal.v:23]
+	Parameter WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'oneshot_universal__parameterized0' (0#1) [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/oneshot_universal.v:23]
+INFO: [Synth 8-6157] synthesizing module 'LCD' [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:50]
+INFO: [Synth 8-226] default block is never used [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:83]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:136]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:143]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:158]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:168]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:183]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:193]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:221]
+INFO: [Synth 8-6155] done synthesizing module 'LCD' (0#1) [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/LCD.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:116]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:75]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:369]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:266]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:480]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:465]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:582]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:560]
+INFO: [Synth 8-6155] done synthesizing module 'traffic_light' (0#1) [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:23]
+WARNING: [Synth 8-7137] Register sec_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:91]
+WARNING: [Synth 8-7137] Register sec_ten_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:35]
+WARNING: [Synth 8-7137] Register sec_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:110]
+WARNING: [Synth 8-7137] Register min_one_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:35]
+WARNING: [Synth 8-7137] Register min_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:129]
+WARNING: [Synth 8-7137] Register min_ten_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:35]
+WARNING: [Synth 8-7137] Register min_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:148]
+WARNING: [Synth 8-7137] Register hour_one_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:35]
+WARNING: [Synth 8-7137] Register hour_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:167]
+WARNING: [Synth 8-7137] Register hour_ten_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:35]
+WARNING: [Synth 8-7137] Register day_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:35]
+WARNING: [Synth 8-7137] Register hour_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:194]
+WARNING: [Synth 8-7137] Register d_or_n_reg in module CLOCK has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/CLOCK.v:208]
+WARNING: [Synth 8-7137] Register EM_prev_state_reg in module traffic_light has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:94]
+WARNING: [Synth 8-7137] Register EM_cnt_reg in module traffic_light has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/sources_1/new/traffic_light.v:92]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1300.547 ; gain = 521.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1300.547 ; gain = 521.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1300.547 ; gain = 521.809
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1300.547 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/constrs_1/new/traffic_light.xdc]
+WARNING: [Vivado 12-507] No nets matched 'clk_IBUF'. [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/constrs_1/new/traffic_light.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/constrs_1/new/traffic_light.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/constrs_1/new/traffic_light.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.srcs/constrs_1/new/traffic_light.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/traffic_light_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/traffic_light_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1366.781 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1366.781 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s75fgga484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'LCD'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   DELAY |                              000 |                              000
+            FUNCTION_SET |                              001 |                              001
+              DISP_ONOFF |                              010 |                              011
+              ENTRY_MODE |                              011 |                              010
+                   LINE1 |                              100 |                              100
+                   LINE2 |                              101 |                              101
+                 DELAY_T |                              110 |                              110
+              CLEAR_DISP |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'LCD'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input   13 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 6     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               13 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 7     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 12    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 6     
+	   8 Input   32 Bit        Muxes := 1     
+	   7 Input   32 Bit        Muxes := 2     
+	   2 Input   13 Bit        Muxes := 4     
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 22    
+	  10 Input    8 Bit        Muxes := 1     
+	  18 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   6 Input    8 Bit        Muxes := 2     
+	  16 Input    8 Bit        Muxes := 1     
+	  11 Input    8 Bit        Muxes := 3     
+	   7 Input    8 Bit        Muxes := 1     
+	   6 Input    7 Bit        Muxes := 2     
+	  11 Input    7 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 24    
+	   4 Input    4 Bit        Muxes := 10    
+	   7 Input    4 Bit        Muxes := 6     
+	   3 Input    4 Bit        Muxes := 2     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 15    
+	   4 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 8     
+	   2 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 37    
+	   3 Input    1 Bit        Muxes := 6     
+	   5 Input    1 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 3     
+	  11 Input    1 Bit        Muxes := 4     
+	   7 Input    1 Bit        Muxes := 18    
+	  10 Input    1 Bit        Muxes := 1     
+	  18 Input    1 Bit        Muxes := 4     
+	  16 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 4     
+	   6 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 140 (col length:80)
+BRAMs: 180 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   255|
+|3     |LUT1   |    49|
+|4     |LUT2   |  1536|
+|5     |LUT3   |    34|
+|6     |LUT4   |    33|
+|7     |LUT5   |    40|
+|8     |LUT6   |   151|
+|9     |MUXF7  |     1|
+|10    |FDCE   |   141|
+|11    |FDPE   |    32|
+|12    |FDRE   |    35|
+|13    |IBUF   |     7|
+|14    |OBUF   |    35|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1366.781 ; gain = 588.043
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 1366.781 ; gain = 521.809
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1366.781 ; gain = 588.043
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1366.781 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 256 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1366.781 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: ed1fd63a
+INFO: [Common 17-83] Releasing license: Synthesis
+53 Infos, 17 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1366.781 ; gain = 969.871
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/user/git/ECE_exp2/final_project-traffic_light/project_1/project_1.runs/synth_1/traffic_light.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file traffic_light_utilization_synth.rpt -pb traffic_light_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 10 00:47:36 2023...
